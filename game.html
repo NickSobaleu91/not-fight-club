@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css">
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+<div class="register">
+    <h1>Create Your Character</h1>
+    <p>Character Name</p>
+    <input class="text" type="text"><br>
+    <button class="start">Create Character</button>
+</div>
+<div class="menu1">
+<div class="menu">
+    <p class="main">Main</p>
+    <div class="about-me">
+        <a class="link" href="#">
+            <img class="put1" src="https://turn-them-all-down.vercel.app/assets/icons/home.svg" alt="main">
+        </a>
+
+        <a class="link" href="#">
+            <img class="put2" src="https://turn-them-all-down.vercel.app/assets/icons/character.svg" alt="profile">
+        </a>
+
+        <a class="link" href="#">
+            <img class="put3" src="https://turn-them-all-down.vercel.app/assets/icons/settings.svg" alt="setting">
+        </a>
+    </div>
+</div>
+</div>
+<button class="Fightbutton">Fight!</button>
+
+
+<div class="CharacterPageContainer">
+    <div class="photo">
+        <img class="photo1" src="https://turn-them-all-down.vercel.app/assets/avatars/default.jpg" alt="">
+        <div class="overlay"></div>
+        <img class="icone" src="https://pngicon.ru/file/uploads/dobavit.png" width="30" alt="">
+        
+    </div>
+    <div>
+        <b class="ourname">#</b><br>
+        <span>
+            <span class="green">Wins: 5</span> <span class="red">Loses: 2</span>
+        </span>
+    </div>
+</div>
+
+<div class="pop-up hidden">
+    <div class="contant">
+        <img class="cross" src="cross.svg" alt="">
+        <div class="our-heroes">
+            <div class="heroes">
+                <img class="photo2" src="https://turn-them-all-down.vercel.app/assets/avatars/default.jpg"  data-wins="5" data-loses="2" alt="">
+                <div class="overlay2"></div>
+                <img class="icone2" src="https://pngicon.ru/file/uploads/dobavit.png" width="15" alt="">
+            </div>
+            <div class="heroes">
+                <img class="photo2" src="https://yt3.googleusercontent.com/ytc/AIdro_njcF8KrwM47CtbKi56w7scM7Vip0B1MQxnaezaZN-9tQ=s900-c-k-c0x00ffffff-no-rj"  data-wins="7" data-loses="3" alt="">
+                <div class="overlay2"></div>
+                <img class="icone2" src="https://pngicon.ru/file/uploads/dobavit.png"   width="15" alt="">
+            </div>
+            <div class="heroes">
+                <img class="photo2" src="123.jpg" data-wins="100" data-loses="0" alt="">
+                <div class="overlay2"></div>
+                <img class="icone2" src="https://pngicon.ru/file/uploads/dobavit.png"  width="15" alt="">
+            </div>
+            <div class="heroes">
+                <img class="photo2" src="https://www.womanhit.ru/media/CACHE/images/articleimage2/2023/3/1076x5630xac1200048324978201679831374/9a351967bfc838623f7172aea856965d.jpeg" data-wins="1" data-loses="101" alt="">
+                <div class="overlay2"></div>
+                <img class="icone2" src="https://pngicon.ru/file/uploads/dobavit.png" width="15" alt="">
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="settings">Player Name:
+    <b class="ourname1">#</b>
+    <button class="edit">Edit</button>
+    <div class="editname">
+        <input class="newname" type="text">
+        <button class="savename">Save</button>
+    </div>
+</div>
+
+
+  <script src="game.js"></script>
+</body>
+</html>
